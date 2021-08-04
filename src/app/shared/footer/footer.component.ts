@@ -1,8 +1,5 @@
-import { Component, OnInit, TemplateRef } from "@angular/core";
-import { FormGroup, FormControl, Validators } from "@angular/forms";
-import { Router } from "@angular/router";
-import { NgbModal } from "@ng-bootstrap/ng-bootstrap";
-import { Constants } from "src/core/utils/constants";
+import { Component, OnInit } from '@angular/core';
+import { Constants } from 'src/core/utils/constant';
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',

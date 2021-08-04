@@ -1,6 +1,7 @@
 import { Component, OnInit, TemplateRef } from '@angular/core';
-import { Constants } from 'src/core/utils/constants';
+import { Constants } from 'src/core/utils/constant';
 import { NgbModal } from "@ng-bootstrap/ng-bootstrap";
+import { svgIcon, iSvgIcon } from 'src/app/utility/svg-icon/svg-icon';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
