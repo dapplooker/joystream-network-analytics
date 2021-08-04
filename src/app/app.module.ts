@@ -1,13 +1,12 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NewHomeComponent } from './shared/new-home.component';
-import { FooterComponent } from './shared/footer/footer.component';
+import { DashboardContainerComponent } from './dashboard-container/dashboard-container.component';
 import { HeaderComponent } from './shared/header/header.component';
-import { svgIcon } from './utility/svg-icon/svg-icon/svg-icon';
-import { SvgIconService } from './utility/svg-icon/svg-icon/svg-icon.service';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { SvgIconService } from "./utility/svg-icon/svg-icon.service";
+import { SvgIconComponent } from "./utility/svg-icon/svg-icon.component";
 import {
   dapplookerLogo,
   discordLogo,
@@ -91,23 +90,20 @@ import {
   bitcannaLogo,
   analysis,
   moonbeamLogo,
-} from "./utility/svg-icon/svg-icon/svg-icon";
-import { SvgIconComponent } from './utility/svg-icon/svg-icon/svg-icon.component';
-import { DashboardContainerComponent } from './dashboard-container/dashboard-container.component';
-import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+} from "./utility/svg-icon/svg-icon";
+import { FooterComponent } from './shared/footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
-    NewHomeComponent,
-    FooterComponent,
+    DashboardContainerComponent,
     HeaderComponent,
     SvgIconComponent,
-    DashboardContainerComponent
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NoopAnimationsModule
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -10,6 +10,7 @@ import { DOCUMENT } from '@angular/common';
   // styles: [':host::ng-deep'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
+
 export class SvgIconComponent {
   private svgIcon!: SVGElement;
   @Input()
