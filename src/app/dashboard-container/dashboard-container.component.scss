@@ -35,16 +35,7 @@ section {
       width: 100%;
       border: none;
   }
-  ul li button{
-      color: $baseColor;
-      -webkit-box-shadow: 0px 20px 20px -17px #627680;
-      -moz-box-shadow: 0px 20px 20px -17px #627680;
-      box-shadow: 0px 20px 20px -17px #627680;
-  }
-  ul li button:hover{
-
-        
-}
-ul li button:active{
+  .nav-link.active,
+  .nav-item.show .nav-link {
     color: $baseColor;
-}
+  }
