@@ -3,7 +3,16 @@ export class Constants {
   public static GENERAL = {
     GA_TRACKING_ID: "UA-150439015-2",
   };
-
+  public static projectDashboard = [
+    {
+      projectName: "Network Dashboard",
+      iframeURL:"https://analytics.dapplooker.com/public/dashboard/c70b56bd-09a0-4472-a557-796afdc64d3b",
+    },
+    {
+      projectName: "Storage Dashboard",
+      iframeURL:"https://analytics.dapplooker.com/public/dashboard/b40e031c-42d1-43e2-84ea-97f07a149a47",
+    },
+  ];
   public static URLs = {
     DEV: {
       COOKIE_DOMAIN: "dlooker.com",
@@ -426,12 +435,7 @@ export class Constants {
       allowedImageType: "only image(PNG, JPEG, JPG) are allowed",
       allowedAbisFileTypeMsg: "only json file allowed",
       invalidSubgraphEndpoint: "invalid Subgraph Endpoint",
-    },
-
-
-
-
-
+  },
     contactUs: {
       header: "Get In Touch",
       emailTitle: "Email:",
@@ -457,5 +461,4 @@ export class Constants {
     website:
       /^((https?|ftp|smtp):\/\/)?(www.)?[a-z0-9]*.[a-z0-9]+\.[a-z/]+(\/[-_a-zA-Z0-9#]+\/?)*$/,
   };
-
 }

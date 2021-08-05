@@ -5,8 +5,9 @@ import { Constants } from 'src/core/utils/constant';
   templateUrl: './dashboard-container.component.html',
   styleUrls: ['./dashboard-container.component.scss']
 })
+
 export class DashboardContainerComponent implements OnInit {
-  labels = Constants.LABELS;
+  dashboardList = Constants.projectDashboard;
   constructor() { }
 
   ngOnInit(): void {
