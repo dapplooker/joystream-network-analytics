@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Constants } from 'src/core/utils/constant';
+import { DomSanitizer } from '@angular/platform-browser';
 @Component({
   selector: 'app-dashboard-container',
   templateUrl: './dashboard-container.component.html',

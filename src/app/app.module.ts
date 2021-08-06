@@ -92,6 +92,7 @@ import {
   moonbeamLogo,
 } from "./utility/svg-icon/svg-icon";
 import { FooterComponent } from './shared/footer/footer.component';
+import { IframepipePipe } from './iframepipe.pipe';
 @NgModule({
   declarations: [
     AppComponent,
@@ -99,6 +100,7 @@ import { FooterComponent } from './shared/footer/footer.component';
     HeaderComponent,
     SvgIconComponent,
     FooterComponent,
+    IframepipePipe,
   ],
   imports: [
     BrowserModule,
