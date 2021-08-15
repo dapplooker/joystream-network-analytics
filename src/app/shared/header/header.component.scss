@@ -4,7 +4,9 @@ $baseColor: #009cea;
 .mobile-nav {
   position: fixed;
 }
-
+.align-items-center{
+  height: 50px;
+}
 ::ng-deep .me-auto .dl-logo {
   #dapplooker-logo-with-text {
     height: 225px;
