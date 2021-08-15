@@ -6,7 +6,7 @@ phases:
   build:
     commands:
       - npm install
-      - ng build 
+      - npm run build:production
   post_build:
     commands:
     #   - aws s3 cp dist s3://${S3_BUCKET} --recursive
@@ -16,8 +16,4 @@ artifacts:
   files:
     - '**/*'
   base-directory: 'dist*'
-<<<<<<< HEAD
   discard-paths: yes
-=======
-  discard-paths: yes
->>>>>>> 583f8891a273440d6781f2545db6f155cf521bc8
