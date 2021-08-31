@@ -4,12 +4,10 @@ export class Constants {
   };
   public static projectDashboard = [
     {
-      id:0,
       projectName:"Network Dashboard",
       iframeURL:"https://analytics.dapplooker.com/public/dashboard/b40e031c-42d1-43e2-84ea-97f07a149a47",
     },
     {
-      id:1,
       projectName:"Provider Performance",
       iframeURL:"https://analytics.dapplooker.com/public/dashboard/aae19f0c-5265-4de4-b691-cc19f32465f8"
     },
