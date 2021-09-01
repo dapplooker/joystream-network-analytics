@@ -5,7 +5,7 @@
   </div>
   <ul class="nav nav-tabs mb-4" id="myTab0" role="tablist">
     <li class="nav-item" role="presentation" *ngFor="let dashboards of dashboardList; let i = index">
-      <button class="nav-link active" id="tab_{{i}}" data-mdb-toggle="tab" data-mdb-target="#tab0" type="button" role="tab"
+      <button class="nav-link" [ngClass]="{'active' : i == 0}" id="tab_{{i}}" data-mdb-toggle="tab" data-mdb-target="#tab0" type="button" role="tab"
         aria-controls="home" aria-selected="true" (click)='setIframeURL(i)'>
         {{dashboards.projectName}}
       </button>
