@@ -22,30 +22,7 @@
 
 
   <base href="/">
- <!-- Google Analytics -->
- <!-- Global site tag (gtag.js) - Google Analytics -->
-<script>
-  var hostName = window.location.hostname;
-  var hostWithSubdomain = hostName.split(".")[1];
-  var host = "dapplooker";
-  if (hostName === host || hostWithSubdomain === host) {
-    // Checking hostname
-    var script = document.createElement("script"); // Creating a script tag
-    script.setAttribute("type", "text/javascript"); // Setting type of script
-    script.setAttribute(
-      "src",
-      "https://www.googletagmanager.com/gtag/js?id=UA-197948260-1"
-    ); // Setting src URL
-    document.head.appendChild(script); // Loading script under head
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-    gtag("config", "UA-197948260-1");
-  }
-</script>
-<!-- End of Google Analytics -->
+
   <!-- MDB -->
   <link rel="icon" href="https://d2yxqfr8upg55w.cloudfront.net/assets/img/Dapplooker_icon.png" type="image/png">
   <link rel="apple-touch-icon" href="https://d2yxqfr8upg55w.cloudfront.net/assets/img/Dapplooker_icon.png">
@@ -63,6 +40,32 @@
 <body>
 
   <app-root></app-root>
+
+
+  <!-- Google Analytics -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script>
+    var hostName = window.location.hostname;
+    var hostWithSubdomain = hostName.split(".")[1];
+    var host = "dapplooker";
+    if (hostName === host || hostWithSubdomain === host) {
+      // Checking hostname
+      var script = document.createElement("script"); // Creating a script tag
+      script.setAttribute("type", "text/javascript"); // Setting type of script
+      script.setAttribute(
+        "src",
+        "https://www.googletagmanager.com/gtag/js?id=UA-197948260-1"
+      ); // Setting src URL
+      document.head.appendChild(script); // Loading script under head
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-197948260-1");
+    }
+  </script>
+  <!-- End of Google Analytics -->
 
 <script src="runtime.js" defer></script><script src="polyfills.js" defer></script><script src="main.js" defer></script>
 
