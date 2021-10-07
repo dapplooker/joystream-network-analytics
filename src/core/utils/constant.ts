@@ -11,6 +11,10 @@ export class Constants {
       projectName:"Provider Performance",
       iframeURL:"https://analytics.dapplooker.com/public/dashboard/aae19f0c-5265-4de4-b691-cc19f32465f8"
     },
+    {
+      projectName:"Media Upload Dashboard",
+      iframeURL:"https://analytics.dapplooker.com/public/question/32c04e1e-5081-4995-a928-c825012848e7"
+    },
   ];
   public static URLs = {
     TWITTER_ID: "dapplooker",
