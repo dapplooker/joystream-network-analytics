@@ -1,4 +1,4 @@
-# Joystream Dashboard
+## Joystream Dashboard
 
 Joystream is a video platform controlled, owned, and operated by its users
 
@@ -8,19 +8,19 @@ Joystream Dashboards:: [https://joy.dapplooker.com](https://joy.dapplooker.com)
 
 [https://git.joystreamstats.live/Operations/dapplooker](https://git.joystreamstats.live/Operations/dapplooker)
 
-# Browse Dataset
+## Browse Dataset
 
 [https://analytics.dapplooker.com/browse/2/schema/joystream](https://analytics.dapplooker.com/browse/2/schema/joystream)
 
-# Joystream Charts & Dashboard Collection
+## Joystream Charts & Dashboard Collection
 
 [https://analytics.dapplooker.com/collection/19](https://analytics.dapplooker.com/collection/19)
 
-# Learn More About Joystream Integration
+## Learn More About Joystream Integration
 
 [https://dapplooker.com/integration](https://dapplooker.com/integration)
 
-# Dashboard Screenshots
+## Dashboard Screenshots
 
 ![Network Dashboard](https://i.imgur.com/hCaT14l.png)
 
