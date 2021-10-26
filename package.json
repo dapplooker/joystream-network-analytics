@@ -7,7 +7,8 @@
     "build": "ng build",
     "build:production": "rm -rf dist && ng build --configuration=production --aot --outputPath=dist --progress=true --verbose=true --output-hashing none",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "build:productionWithS3Upload": "rm -rf dist && ng build --configuration=production --aot --outputPath=dist --progress=true --verbose=true --output-hashing none && cd aws/ && ts-node aws-read.ts && ts-node aws-s3.ts && cd -"
   },
   "private": true,
   "dependencies": {
@@ -33,7 +34,7 @@
     "@angular/cli": "~12.1.4",
     "@angular/compiler-cli": "~12.1.0",
     "@types/jasmine": "~3.8.0",
-    "@types/node": "^12.11.1",
+    "@types/node": "12.20.34",
     "jasmine-core": "~3.8.0",
     "karma": "~6.3.0",
     "karma-chrome-launcher": "~3.1.0",
